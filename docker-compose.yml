@@ -15,11 +15,11 @@ services:
   wordpress:
     depends_on:
       - db
-    build: ./wordpress
+    image: wordpress
     volumes:
       - ./wordpress/www/html:/var/www/html
     ports:
-      - "8000:80"
+      - "8080:80"
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
