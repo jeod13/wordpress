@@ -6,3 +6,6 @@ docker-compose up
 
 # Connect to wordpress
 http://localhost:8000
+
+# Reminder
+Need to manually activate the Plugin
