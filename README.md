@@ -5,7 +5,7 @@ git clone https://github.com/jeod13/wordpress
 docker-compose up
 
 # Connect to wordpress
-http://localhost:8000
+http://localhost:8080
 
 # Reminder
 Need to manually activate the Plugin
